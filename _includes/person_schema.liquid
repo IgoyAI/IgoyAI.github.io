@@ -1,0 +1,56 @@
+{% comment %}
+  Person + ProfilePage structured data for the homepage.
+  Supplements the generic WebSite schema emitted by al_folio_core's metadata.liquid.
+  Helps Google Knowledge Graph and AI answer engines identify the site owner.
+{% endcomment %}
+{% capture person_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "{{ person_name | strip }}",
+        "givenName": "{{ site.first_name }}",
+        "familyName": "{{ site.last_name }}",
+        "url": "{{ site.url }}{{ site.baseurl }}/",
+        "image": "{{ site.url }}{{ site.baseurl }}/assets/img/prof_pic.jpg",
+        "description": "{{ site.description | strip_newlines | strip }}",
+        "jobTitle": "AI Safety Research Associate",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "AI Singapore",
+          "url": "https://aisingapore.org/"
+        },
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Nanyang Technological University",
+          "url": "https://www.ntu.edu.sg/"
+        },
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "National University of Singapore",
+            "url": "https://www.nus.edu.sg/"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "BINUS University",
+            "url": "https://binus.ac.id/"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Universitas Gadjah Mada",
+            "url": "https://ugm.ac.id/"
+          }
+        ],
+        "knowsAbout": ["AI Safety", "Artificial Intelligence", "Machine Learning"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "SG",
+          "addressLocality": "Singapore"
+        }{% if site.data.socials.github_username %},
+        "sameAs": ["https://github.com/{{ site.data.socials.github_username }}"]{% endif %}
+      }
+    }
+</script>
