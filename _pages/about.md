@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://aisingapore.org/'>AI Singapore</a>. Singapore. yogi[dot]p[at]u[dot]nus[dot]edu
+subtitle: <a href='https://aisingapore.org/'>AI Singapore</a>. Singapore.
 description: A.A. Gde Yogi Pramana is an incoming AI Safety Research Associate at AI Singapore, NTU, with a Master of Computing in Artificial Intelligence from NUS.
 
 profile:
