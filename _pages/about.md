@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://aisingapore.org/'>AI Singapore</a>. Singapore.
-description: A.A. Gde Yogi Pramana is an incoming AI Safety Research Associate at AI Singapore, NTU, with a Master of Computing in Artificial Intelligence from NUS.
+description: A.A. Gde Yogi Pramana is an AI Safety Research Associate at AI Singapore, NTU, with a Master of Computing in Artificial Intelligence from NUS.
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm currently incoming AI Safety Research Associate at [AI Singapore](https://aisingapore.org/), NTU.
+I'm currently an AI Safety Research Associate at [AI Singapore](https://aisingapore.org/), NTU.
 
 I hold a Master of Computing in Artificial Intelligence from the [National University of Singapore](https://www.nus.edu.sg/) (2026), a Bachelor of Computing from [BINUS University](https://binus.ac.id/) (2026), and a Bachelor of Science from [Universitas Gadjah Mada](https://ugm.ac.id/) (2025).
 

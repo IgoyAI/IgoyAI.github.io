@@ -3,9 +3,9 @@ permalink: /llms.txt
 ---
 # A.A. Gde Yogi Pramana
 
-> Incoming AI Safety Research Associate at AI Singapore, NTU. Based in Singapore.
+> AI Safety Research Associate at AI Singapore, NTU. Based in Singapore.
 
-A.A. Gde Yogi Pramana is an incoming AI Safety Research Associate at AI Singapore,
+A.A. Gde Yogi Pramana is an AI Safety Research Associate at AI Singapore,
 Nanyang Technological University (NTU), Singapore.
 
 ## Education

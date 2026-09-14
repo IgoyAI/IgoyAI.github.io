@@ -9,7 +9,7 @@ last_name: Pramana
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of A.A. Gde Yogi Pramana, incoming AI Safety Research Associate at AI Singapore, NTU.
+  Personal website of A.A. Gde Yogi Pramana, AI Safety Research Associate at AI Singapore, NTU.
 footer_text: >
   &copy; A.A. Gde Yogi Pramana. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: A.A. Gde Yogi Pramana, AI safety, machine learning, AI Singapore, NTU, NUS # add your own keywords or leave empty
