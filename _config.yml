@@ -9,10 +9,11 @@ last_name: Pramana
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of A.A. Gde Yogi Pramana, AI Safety Research Associate at AI Singapore, NTU.
+  Personal website of A.A. Gde Yogi Pramana, AI Safety Research Associate at AI Singapore, NTU,
+  and incoming CS PhD student at NUS. Research in AI safety, AI alignment, and cooperative AI.
 footer_text: >
   &copy; A.A. Gde Yogi Pramana. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: A.A. Gde Yogi Pramana, AI safety, machine learning, AI Singapore, NTU, NUS # add your own keywords or leave empty
+keywords: A.A. Gde Yogi Pramana, AI safety, AI alignment, cooperative AI, pluralistic AI, machine learning, AI Singapore, NTU, NUS # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
