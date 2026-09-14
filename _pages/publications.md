@@ -2,12 +2,14 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications in reverse chronological order. See also my <a href="https://scholar.google.com/citations?user=SI0nGccAAAAJ&hl=en">Google Scholar profile</a>.
+description: Publications in reverse chronological order.
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+
+See also my [Google Scholar profile](https://scholar.google.com/citations?user=SI0nGccAAAAJ&hl=en).
 
 <!-- Bibsearch Feature -->
 
