@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Custom overrides.
+ * Loaded last from assets/css/main.scss so these win over the theme defaults.
+ ******************************************************************************/
+
+// Accent / hover / highlight color: blue instead of the theme's purple (light)
+// and cyan (dark).
+:root {
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+  --global-highlight-color: #00369f;
+  --global-code-bg-color: rgba(0, 118, 223, 0.05);
+}
+
+html[data-theme="dark"] {
+  // Lighter blue so it stays readable against the dark background.
+  --global-theme-color: #4da3ff;
+  --global-hover-color: #4da3ff;
+  --global-highlight-color: #4da3ff;
+}
+
+// Text selection highlight.
+::selection {
+  background: var(--global-theme-color);
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: var(--global-theme-color);
+  color: #ffffff;
+}
