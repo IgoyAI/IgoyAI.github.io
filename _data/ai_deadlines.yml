@@ -1,0 +1,209 @@
+# Submission deadlines for top AI conferences, rendered by _pages/deadlines.md.
+#
+# Fields:
+#   id                 unique slug
+#   name, year         short name and edition year
+#   full_name          long conference name
+#   area               ml | nlp | cv (drives the filter chips)
+#   abstract_deadline  optional, ISO 8601 with UTC offset
+#   deadline           full paper submission, ISO 8601 with UTC offset (AoE = -12:00)
+#   status             confirmed (from the official CFP) | estimated (previous year shifted +1 year)
+#   conf_dates, location, link, note
+#
+# Keep every deadline in the same "-12:00" offset format so the Liquid string sort stays chronological.
+# Entries with a deadline on or after 2028-01-01 are hidden by the page.
+# Last checked: 2026-09-25 against official CFP pages, ccfddl/ccf-deadlines and huggingface/ai-deadlines.
+
+# ---------- Machine learning / general AI ----------
+- id: iclr2027
+  name: ICLR
+  year: 2027
+  full_name: International Conference on Learning Representations
+  area: ml
+  abstract_deadline: "2026-09-18T23:59:59-12:00"
+  deadline: "2026-09-25T23:59:59-12:00"
+  status: confirmed
+  conf_dates: Apr 26-30, 2027
+  location: San Francisco, USA
+  link: https://iclr.cc/Conferences/2027/Dates
+
+- id: aistats2027
+  name: AISTATS
+  year: 2027
+  full_name: International Conference on Artificial Intelligence and Statistics
+  area: ml
+  abstract_deadline: "2026-09-29T23:59:59-12:00"
+  deadline: "2026-10-06T23:59:59-12:00"
+  status: confirmed
+  conf_dates: May 2027
+  location: Montréal, Canada
+  link: https://virtual.aistats.org/Conferences/2027/Dates
+  note: Full paper deadline includes all supplementary material.
+
+- id: ijcai2027
+  name: IJCAI
+  year: 2027
+  full_name: International Joint Conference on Artificial Intelligence
+  area: ml
+  abstract_deadline: "2027-01-11T23:59:59-12:00"
+  deadline: "2027-01-18T23:59:59-12:00"
+  status: estimated
+  conf_dates: Aug 2027
+  location: Kyoto, Japan and Hengqin, China
+  link: https://www.ijcai.org/
+  note: Estimated from the IJCAI 2026 timeline.
+
+- id: icml2027
+  name: ICML
+  year: 2027
+  full_name: International Conference on Machine Learning
+  area: ml
+  abstract_deadline: "2027-01-22T23:59:59-12:00"
+  deadline: "2027-01-28T23:59:59-12:00"
+  status: estimated
+  conf_dates: Jul 2027
+  location: TBA
+  link: https://icml.cc/
+  note: Estimated from the ICML 2026 timeline.
+
+- id: colm2027
+  name: COLM
+  year: 2027
+  full_name: Conference on Language Modeling
+  area: ml
+  abstract_deadline: "2027-03-25T23:59:59-12:00"
+  deadline: "2027-03-30T23:59:59-12:00"
+  status: estimated
+  conf_dates: Oct 2027
+  location: TBA
+  link: https://colmweb.org/
+  note: Estimated from the COLM 2026 timeline.
+
+- id: neurips2027
+  name: NeurIPS
+  year: 2027
+  full_name: Conference on Neural Information Processing Systems
+  area: ml
+  abstract_deadline: "2027-05-04T23:59:59-12:00"
+  deadline: "2027-05-06T23:59:59-12:00"
+  status: estimated
+  conf_dates: Dec 2027
+  location: TBA
+  link: https://neurips.cc/
+  note: Estimated from the NeurIPS 2026 timeline.
+
+- id: aaai2028
+  name: AAAI
+  year: 2028
+  full_name: AAAI Conference on Artificial Intelligence
+  area: ml
+  abstract_deadline: "2027-07-20T23:59:59-12:00"
+  deadline: "2027-07-27T23:59:59-12:00"
+  status: estimated
+  conf_dates: Feb 2028
+  location: TBA
+  link: https://aaai.org/conference/aaai/
+  note: Estimated from the AAAI-27 timeline.
+
+- id: iclr2028
+  name: ICLR
+  year: 2028
+  full_name: International Conference on Learning Representations
+  area: ml
+  abstract_deadline: "2027-09-17T23:59:59-12:00"
+  deadline: "2027-09-24T23:59:59-12:00"
+  status: estimated
+  conf_dates: Apr 2028
+  location: TBA
+  link: https://iclr.cc/
+  note: Estimated from the ICLR 2027 timeline.
+
+- id: aistats2028
+  name: AISTATS
+  year: 2028
+  full_name: International Conference on Artificial Intelligence and Statistics
+  area: ml
+  abstract_deadline: "2027-09-28T23:59:59-12:00"
+  deadline: "2027-10-05T23:59:59-12:00"
+  status: estimated
+  conf_dates: May 2028
+  location: TBA
+  link: https://aistats.org/
+  note: Estimated from the AISTATS 2027 timeline.
+
+# ---------- Natural language processing (ACL Rolling Review) ----------
+- id: naacl2027
+  name: NAACL
+  year: 2027
+  full_name: Annual Conference of the Nations of the Americas Chapter of the ACL
+  area: nlp
+  deadline: "2026-10-12T23:59:59-12:00"
+  status: confirmed
+  conf_dates: Jun 1-5, 2027
+  location: San Francisco, USA
+  link: https://aclrollingreview.org/dates
+  note: ARR October 2026 cycle. Commitment deadline Dec 23, 2026.
+
+- id: acl2027
+  name: ACL
+  year: 2027
+  full_name: Annual Meeting of the Association for Computational Linguistics
+  area: nlp
+  deadline: "2027-01-11T23:59:59-12:00"
+  status: estimated
+  conf_dates: Aug 2027
+  location: TBA
+  link: https://aclrollingreview.org/dates
+  note: ARR January 2027 cycle. ARR lists "January 2027"; exact day not yet announced.
+
+- id: emnlp2027
+  name: EMNLP
+  year: 2027
+  full_name: Conference on Empirical Methods in Natural Language Processing
+  area: nlp
+  deadline: "2027-05-24T23:59:59-12:00"
+  status: estimated
+  conf_dates: Late 2027
+  location: TBA
+  link: https://aclrollingreview.org/dates
+  note: ARR May 2027 cycle. Estimated from the EMNLP 2026 timeline.
+
+# ---------- Computer vision ----------
+- id: cvpr2027
+  name: CVPR
+  year: 2027
+  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  area: cv
+  abstract_deadline: "2026-11-10T23:59:59-12:00"
+  deadline: "2026-11-16T23:59:59-12:00"
+  status: confirmed
+  conf_dates: Jun 20-25, 2027
+  location: Seattle, USA
+  link: https://cvpr.thecvf.com/Conferences/2027/Dates
+  note: Abstract deadline is the paper registration deadline. Supplementary material due Nov 23, 2026.
+
+- id: iccv2027
+  name: ICCV
+  year: 2027
+  full_name: IEEE/CVF International Conference on Computer Vision
+  area: cv
+  abstract_deadline: "2027-03-01T23:59:59-12:00"
+  deadline: "2027-03-07T23:59:59-12:00"
+  status: estimated
+  conf_dates: Oct 19-23, 2027
+  location: TBA
+  link: https://iccv.thecvf.com/Conferences/2027/Dates
+  note: Estimated from the ICCV 2025 timeline.
+
+- id: cvpr2028
+  name: CVPR
+  year: 2028
+  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  area: cv
+  abstract_deadline: "2027-11-09T23:59:59-12:00"
+  deadline: "2027-11-15T23:59:59-12:00"
+  status: estimated
+  conf_dates: Jun 2028
+  location: TBA
+  link: https://cvpr.thecvf.com/
+  note: Estimated from the CVPR 2027 timeline.
